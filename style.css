@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+
+}
+img {
+    cursor:pointer
+}
+.flex-div {
+    display: flex;
+    align-items: center;
+
+}
+nav {
+    padding:10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nav-right img{
+   width:25px;
+   margin-right: 25px;
+}
+.nav-right .user-icon {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.nav-left .menu-icon{
+    width: 22px;
+    margin-right:22px;
+
+}
+.nav-left .logo{
+    width:130px;  
+}
+.nav-middle .mic-icon {
+    width: 16px;
+}
+.nav-middle .search-box {
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 7px 12px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.nav-middle .search-box input {
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background:transparent;
+}
+.nav-middle .search-box .search-icon {
+    width: 15px;
+}
+
+/* ----------------------- SIDEBAR CSS START FROM HERE -------------------- */
+.sidebar {
+    background: #FFF;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2% ;
+    padding-top: 80px;
+}
+.sidebar .shorcut-link a img {
+    width: 20px;
+    margin-right: 20px;
+}
+.sidebar .shorcut-link a{
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   width: fit-content;
+   flex-wrap: wrap;
+}
+.sidebar .shorcut-link a:first-child {
+   color: #ed3833;
+}
+.sidebar hr{
+  border: 0;
+  width: 85%;
+  height: 1px;
+  background:#ccc;
+}
+.subscript-list h3 {
+    margin: 20px 0px;
+    font-size: 13px;
+    color:#5a5a5a;
+}
+.subscript-list a{
+    display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   width:fit-content;
+   flex-wrap: wrap;
+}
+.subscript-list a img {
+   width: 25px;
+   margin-right: 20px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
